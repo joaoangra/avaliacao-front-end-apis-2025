@@ -1,0 +1,28 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "description": "A front-end web application that includes a login screen, post listing, post detail modal, and search functionality.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "frontend",
+    "web",
+    "application",
+    "login",
+    "posts",
+    "modal",
+    "search"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

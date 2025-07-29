@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend App</title>
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Frontend App</h1>
+            <nav>
+                <button id="navLogin" class="nav-btn">Login</button>
+                <button id="navPosts" class="nav-btn" style="display:none;">Posts</button>
+                <button id="logoutBtn" class="nav-btn" style="display:none;">Logout</button>
+            </nav>
+        </header>
+        <main>
+            <!-- Login Section -->
+            <section id="loginSection">
+                <h2>Login</h2>
+                <form id="loginForm" autocomplete="off">
+                    <input type="text" id="username" placeholder="Usuário" required>
+                    <input type="password" id="password" placeholder="Senha" required>
+                    <button type="submit">Entrar</button>
+                    <div id="loginError" class="error"></div>
+                </form>
+            </section>
+            <!-- Posts Section -->
+            <section id="postsSection" style="display:none;">
+                <h2>Posts</h2>
+                <input type="text" id="search" placeholder="Buscar posts...">
+                <div id="postList" class="posts-grid"></div>
+            </section>
+        </main>
+        <!-- Modal de Detalhes do Post -->
+        <div id="postModal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <p id="modalBody"></p>
+            </div>
+        </div>
+    </div>
+    <script src="../src/js/login.js"></script>
+    <script src="../src/js/posts.js"></script>
+    <script src="../src/js/modal.js"></script>
+    <script src="../src/js/search.js"></script>
+</body>
+</html>
