@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const logoutBtn = document.getElementById('logoutBtn');
   const loginError = document.getElementById('loginError');
 
-  // Checa se já está logado
   if (localStorage.getItem('token')) {
     showPosts();
   }
@@ -58,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
     navLogin.style.display = '';
     navPosts.style.display = 'none';
     logoutBtn.style.display = '';
-    // Chama função para carregar posts
     if (typeof loadPosts === 'function') loadPosts();
   }
 });

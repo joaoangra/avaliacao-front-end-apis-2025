@@ -4,7 +4,6 @@ async function showPostModal(id) {
   const modalBody = document.getElementById('modalBody');
   let post = allPosts.find(p => p.id == id);
   if (!post) {
-    // Busca caso não esteja carregado
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
     post = await res.json();
   }
