@@ -77,6 +77,6 @@ Serão avaliados os seguintes pontos:
 3. Faça commits frequentes e claros.
 
 ## Prints
-![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-29%20170211.png)
+![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-30%20110043.png)
 
-![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-29%20170230.png)
+![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-30%20110043.png)
