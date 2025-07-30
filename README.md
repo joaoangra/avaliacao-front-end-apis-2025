@@ -79,4 +79,4 @@ Serão avaliados os seguintes pontos:
 ## Prints
 ![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-30%20110043.png)
 
-![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-30%20110043.png)
+![](./frontend-app/src/imagens/Captura%20de%20tela%202025-07-30%20111027.png)
